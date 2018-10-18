@@ -1,4 +1,4 @@
-package com.lipy.crash.handler.test.crashhandler;
+package com.lipy.demo.crashhandler;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
 		// Context of the app under test.
 		Context appContext = InstrumentationRegistry.getTargetContext();
 
-		assertEquals("com.lipy.crash.handler.test.crashhandler", appContext.getPackageName());
+		assertEquals("com.lipy.demo.crashhandler", appContext.getPackageName());
 	}
 }

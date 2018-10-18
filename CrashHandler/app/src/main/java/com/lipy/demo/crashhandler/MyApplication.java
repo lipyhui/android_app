@@ -1,4 +1,4 @@
-package com.lipy.crash.handler.test.crashhandler;
+package com.lipy.demo.crashhandler;
 
 import android.app.Application;
 
