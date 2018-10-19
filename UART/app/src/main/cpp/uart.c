@@ -16,7 +16,8 @@
 
 /**
   * @brief  set_uart_para 通信端口配置
-  * @param  uart_info
+  * @param  name 串口路径
+  * @fd 串口文件描述符
   * @retval None
   */
 int set_uart_para(const char *name, int fd) {
@@ -74,7 +75,7 @@ int set_uart_para(const char *name, int fd) {
 
 /**
   * @brief  init_uart_port 初始化串口
-  * @param  uart_info
+  * @param  name 串口路径
   * @retval None
   */
 int init_uart_port(const char *name) {
