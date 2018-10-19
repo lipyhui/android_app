@@ -1,6 +1,10 @@
 //BootBroadcastReceiver.java
 package com.lipy.demo.crashhandler;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+
 /**
  * 创建人: lipy
  * 创建时间: 2018/4/23
@@ -10,11 +14,6 @@ package com.lipy.demo.crashhandler;
  *
  * 功能描述:开机自启
  */
-
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
-
 public class BootBroadcastReceiver extends BroadcastReceiver {
 	@Override
 	public void onReceive(Context context, Intent intent) {
