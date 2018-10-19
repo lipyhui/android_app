@@ -4,7 +4,7 @@ package com.lipy.demo.crashhandler;
 /**
  * 创建人: lipy
  * 创建时间: 2018/4/23
- * 修改人:qicheng.deng
+ * 修改人:lipy
  * 修改时间:2018/4/23
  * 修改内容:
  *
